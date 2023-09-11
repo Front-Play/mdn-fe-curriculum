@@ -28,7 +28,7 @@
     - ex) `class`, `href`, `target` 등
   - 속성의 value는 `''` 또는 `""`로 감싸줍니다.
     - 따옴표 안에서 따옴표 문자를 쓰고 싶다면 HTML entities를 사용한다.
-    ```
+    ```html
     <a href='http://www.example.com' title='Isn&#39;t this fun?'>A link to my example.</a>
     ```
 
@@ -43,7 +43,7 @@
 5. **기타 사항**
   - HTML에서 문자 `<`,`>`, `"`및 `&`는 특수 문자이다. 때문에 HTML 코드로 해석되지 않게 하기 위해서는 [ASCII코드](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references)와 같은 방법을 사용한다.
   - HTML 주석
-    ```
+    ```html
     <!-- <p>I am!</p> -->
     ```
 
