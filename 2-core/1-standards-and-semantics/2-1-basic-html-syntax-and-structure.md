@@ -31,3 +31,18 @@ HTML 문서의 구조
 ### 📝 정준
 
 ### 📝 주현
+
+HTML의 구조
+
+- 문서 상단에 doctype을 명시했다\_ 요즘은 !DOCTYPE html로 간단하게 명시한다
+- head
+  - 문자 인코딩, 제목 등의 정보`<meta charset="utf-8">`
+  - 검색엔친 최적화를 위한 메타데이터 제공
+  - 브라우저나 모바일에서 사용할 수 있는 아이콘을 등록
+  - 스타일시트(css)나 js 파일에 연결
+- body
+  - 여는 태그(opening tag)
+  - 닫는 태그(closing tag)
+  - 내용(content)
+  - 요소(element)
+  - 빈 요소(단일 태그를 사용하는 경우\_ ex:img)
