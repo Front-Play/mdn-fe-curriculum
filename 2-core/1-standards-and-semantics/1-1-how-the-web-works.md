@@ -117,4 +117,30 @@ Anchor : 북마크 지점 ex) git
 
 ### 📝 정준
 
+#### How the web works
+- client와 server간의 요청과 응답으로 웹을 보여준다. 이때 HTTP를 이용해 TCP/IP를 위에서 통신이 이뤄진다.
+- DNS란? IP address를 사용자가 기억하기 쉬운 address로 바꿔 나타내는 것
+  - browser에서는 DNS와 매치되는 IP address를 보여준다.
+- packets이란? 전송 효율을 올리기 위해 데이터를 여러 조각으로 나눠 놓은 포맷이다. 데이터를 하나의 덩어리가 아닌 여러 개로 나눠놓은 조각으로 전송하기 때문에 전송 과정에서 일부 누락되어도 대체시키는 것이 쉬우며, 여러 유저가 동시에 빠른 데이터 다운로드가 가능하게 한다.
+
+#### What is a domain name?
+
+- 도메인은 IP주소를 대신하여 사용자가 읽기 쉽게 되어 있는 주소를 뜻 한다.
+- 구성은 TLD와 Label로 구성되어 있다.
+  ```
+  developer.mozilla.org
+  --label1--label2--TLD--
+  ```
+  - `TLD(Top Level Domain)`: 도메인 이름 뒤에 있는 서비스의 일반적인 목적을 알려준다.
+  - `Label`: TLD앞에 놓이며 도메인 이름을 구성한다.
+    - TLD 바로 앞에 위치한 레이블을 SLD( Secondary Level Domain )라고도 한다.
+- 도메인은 거래할 수 없다. 대신 점유한 도메인에 대한 사용료를 지불한다.
+  - 1년 동안의 권리에 대한 비용
+  - 권리를 갱신할 때 신규보다 우선권을 가진다. 하지만 권리를 지닐 뿐 도메인을 소유한다는 개념은 아니다. 소유할 수 없다.
+
+#### What is a URL?
+
+- `URL`은 Uniform Resource Locator의 약자로 각각의 URL은 고유한 웹 리소스를 가리킨다.
+- 구성은 `scheme`, `authority`(`domain name`, `port`), `path`, `parameters`, `anchor`로 구성된다. 
+
 ### 📝 주현
