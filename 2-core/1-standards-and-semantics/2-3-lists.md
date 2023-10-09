@@ -182,3 +182,7 @@ HTML의 주요 작업 중 하나는 브라우저가 텍스트를 올바르게 �
 > 출처: [MDN](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting#%EC%BB%B4%ED%93%A8%ED%84%B0_%EC%BD%94%EB%93%9C%EB%A5%BC_%EB%82%98%ED%83%80%EB%82%B4%EA%B8%B0)
 
 ### 📝 주현
+
+- ul: 순서 없음\_ 순서 없는 리스트 정렬
+- ol: 순서 있음\_ 순서 있는 리스트 정렬
+- 리스트 내부에 리스트를 중첩시킬 수 있다.
