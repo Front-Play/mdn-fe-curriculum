@@ -23,6 +23,8 @@ CSS를 통해 배경을 지정할 수 있습니다. 다음 속성을 사용해 �
   - `repeat`: 기본값; 양방향으로 반복
 - `background-image`: url 설정
 
+<br/>
+
 #### 배경 이미지 배치
 
 배경 이미지에도 position을 설정할 수 있습니다.
@@ -56,5 +58,63 @@ CSS를 통해 배경을 지정할 수 있습니다. 다음 속성을 사용해 �
 >   background-position: top 20px right 10px;
 > }
 > ```
+
+### Border
+
+테두리 속성을 일컫으며 하나씩 작성하기도, 한번에 작성하기도 가능하다.
+
+```css
+/* 한번에 작성 */
+.box {
+  border: 1px solid black;
+}
+
+/* 나눠서 작성 */
+.box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+```
+
+<br/>
+
+#### 특정 방향 border 지정
+
+또한 특정 방향에만 border를 주는 것도 가능하다.  
+이는 `-`뒤에 원하는 방향을 명시한다.
+
+```css
+.box {
+  border-top: 1px solid black;
+  border-bottom: 3px solid blue;
+  border-left: 2px solid red;
+  border-right: 1px dotted yellow;
+}
+```
+
+> 참고: `longhands`
+>
+> ```css
+> .box {
+>   border-top-width: 1px;
+>   border-top-style: solid;
+>   border-top-color: black;
+> }
+> ```
+
+<br/>
+
+#### 둥근 테두리
+
+```css
+.box {
+  border-radius: 10px;
+}
+
+.box {
+  border-top-right-radius: 1em 10%;
+}
+```
 
 ### 📝 주현
